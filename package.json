@@ -1,16 +1,29 @@
-
 {
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "scripts": { "dev": "vite", "build": "vite build", "preview": "vite preview" },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "react": "^18.2.0", "react-dom": "^18.2.0", "react-router-dom": "^6.20.0",
-    "framer-motion": "^10.16.4", "lucide-react": "^0.292.0", "axios": "^1.6.2",
-    "clsx": "^2.0.0", "tailwind-merge": "^2.0.0"
+    "axios": "^1.6.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^10.18.0",
+    "lucide-react": "^0.292.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^6.20.0",
+    "react-type-animation": "^3.2.0",
+    "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.0", "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31", "tailwindcss": "^3.3.5", "vite": "^5.0.0"
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^5.0.0"
   }
 }
